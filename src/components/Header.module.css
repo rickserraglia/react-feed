@@ -1,0 +1,24 @@
+.header {
+	background: var(--gray-800);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 0;
+	gap: 1rem;
+	font-size: 1.8rem;
+	position: sticky;
+	top: 0;
+	border-bottom: 1px solid var(--gray-700);
+	box-shadow: 0 4px 8px 2px var(--gray-900);
+	z-index: 50;
+}
+
+.header img {
+	height: 4rem;
+}
+
+@media (max-height: 700px) {
+	.header {
+		position: relative;
+	}
+}
